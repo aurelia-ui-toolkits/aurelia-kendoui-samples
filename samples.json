@@ -184,7 +184,7 @@
         "aurelia-kendoui-bridge/buttongroup/buttongroup"
      ],
      "kendoModules": [
-       "kendo."
+       "kendo.mobile.buttongroup"
      ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/buttongroup",
      "samples": {
@@ -202,7 +202,7 @@
         "aurelia-kendoui-bridge/common/template"
      ],
      "kendoModules": [
-       "kendo."
+       "kendo.calendar"
      ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar",
      "samples": {
@@ -647,7 +647,7 @@
         "aurelia-kendoui-bridge/datepicker/datepicker"
      ],
      "kendoModules": [
-       "kendo."
+       "kendo.datepicker"
      ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/datepicker",
      "samples": {
@@ -668,7 +668,7 @@
         "aurelia-kendoui-bridge/datetimepicker/datetimepicker"
      ],
      "kendoModules": [
-       "kendo."
+       "kendo.datetimepicker"
      ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/datetimepicker",
      "samples": {
@@ -1589,7 +1589,7 @@
       "aurelia-kendoui-bridge/"
    ],
    "kendoModules": [
-     "kendo."
+     "kendo.window"
    ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/window",
    "samples": {
