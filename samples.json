@@ -108,7 +108,8 @@
    "title": "Autocomplete",
    "pro": false,
    "requires": [
-      "aurelia-kendoui-bridge/autocomplete/autocomplete"
+      "aurelia-kendoui-bridge/autocomplete/autocomplete",
+      "aurelia-kendoui-bridge/common/template"
    ],
    "kendoModules": [
      "kendo.autocomplete"
@@ -132,6 +133,12 @@
   {
      "title": "Barcode",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/barcode/barcode"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.barcode"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/barcode",
      "samples": {
         "basic-use": {
@@ -144,6 +151,12 @@
   {
      "title": "Button",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/button/button"
+     ],
+     "kendoModules": [
+       "kendo.button"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/button",
      "samples": {
         "basic-use": {
@@ -167,6 +180,12 @@
   {
      "title": "ButtonGroup",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/buttongroup/buttongroup"
+     ],
+     "kendoModules": [
+       "kendo."
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/buttongroup",
      "samples": {
         "basic-use": {
@@ -178,6 +197,13 @@
   {
      "title": "Calendar",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/calendar/calendar",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo."
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/calendar",
      "samples": {
         "basic-use": {
@@ -193,6 +219,12 @@
   {
      "title": "Area charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -214,6 +246,12 @@
   {
      "title": "Bar charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -248,6 +286,12 @@
   {
      "title": "Boxplot charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -261,6 +305,12 @@
   {
      "title": "Bubble charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -275,6 +325,12 @@
   {
      "title": "Bullet charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -288,6 +344,12 @@
   {
      "title": "Donut charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -301,6 +363,13 @@
   {
      "title": "Funnel charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart",
+       "kendo.dataviz.chart.funnel"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -315,6 +384,12 @@
   {
      "title": "Line charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -336,6 +411,12 @@
   {
      "title": "Pie charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -350,6 +431,13 @@
   {
      "title": "Polar charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart",
+       "kendo.dataviz.chart.polar"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "binding-to-local-data": "10ee70a457a0150fa63ad1719670ef77",
@@ -366,6 +454,12 @@
   {
      "title": "Radar charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "radar-line": {
@@ -382,6 +476,12 @@
   {
      "title": "Range charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -395,6 +495,12 @@
   {
      "title": "Scatter charts",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -415,6 +521,12 @@
   {
      "title": "Sparkline",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/sparkline"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.sparkline"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/sparkline",
      "samples": {
         "basic-use": {
@@ -428,6 +540,12 @@
   {
      "title": "Stock",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/stock"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.stock"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/stock-chart",
      "samples": {
         "basic-use": {
@@ -442,6 +560,12 @@
   {
      "title": "Treemap",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/treemap"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.treemap"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/treemap",
      "samples": {
         "basic-use": {
@@ -454,6 +578,12 @@
   {
      "title": "Waterfall charts",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/chart/chart"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.chart"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/chart",
      "samples": {
         "basic-use": {
@@ -468,6 +598,12 @@
   {
      "title": "Color Picker",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/colorpicker/colorpicker"
+     ],
+     "kendoModules": [
+       "kendo.colorpicker"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/colorpicker",
      "samples": {
         "basic-use": {
@@ -482,6 +618,13 @@
   {
      "title": "ComboBox",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/combobox/combobox",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.combobox"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/combobox",
      "samples": {
         "basic-use": {
@@ -500,6 +643,12 @@
   {
      "title": "DatePicker",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/datepicker/datepicker"
+     ],
+     "kendoModules": [
+       "kendo."
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/datepicker",
      "samples": {
         "basic-usage": {
@@ -515,6 +664,12 @@
   {
      "title": "DateTimePicker",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/datetimepicker/datetimepicker"
+     ],
+     "kendoModules": [
+       "kendo."
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/datetimepicker",
      "samples": {
         "basic-usage": {
@@ -531,6 +686,12 @@
   {
      "title": "Filter Menu",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/filter-menu/filter-menu"
+     ],
+     "kendoModules": [
+       "kendo.filtermenu"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/filtermenu",
      "samples": {
         "basic-use": {
@@ -542,6 +703,12 @@
   {
      "title": "Diagram",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/diagram/diagram"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.diagram"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/diagram",
      "samples": {
         "basic-use": {
@@ -559,6 +726,14 @@
   {
      "title": "Drag and Drop",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/draggable/draggable",
+        "aurelia-kendoui-bridge/drop-target/drop-target",
+        "aurelia-kendoui-bridge/drop-target/drop-target-area"
+     ],
+     "kendoModules": [
+       "kendo.draganddrop"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/draggable",
      "samples": {
         "basic-use": {
@@ -573,6 +748,13 @@
   {
      "title": "DropDownList",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/dropdownlist/dropdownlist",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.dropdownlist"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/dropdownlist",
      "samples": {
         "basic-use": {
@@ -596,6 +778,12 @@
   {
      "title": "Editor",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/editor/editor"
+     ],
+     "kendoModules": [
+       "kendo.editor"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/editor",
      "samples": {
         "basic-use": {
@@ -615,6 +803,16 @@
   {
      "title": "Gantt",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/gantt/gantt",
+        "aurelia-kendoui-bridge/gantt/gantt-col",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.gantt",
+       "kendo.gantt.timeline",
+       "kendo.gantt.list"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/gantt",
      "samples": {
         "basic-use": {
@@ -643,6 +841,15 @@
   {
      "title": "Grid",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/grid/grid",
+        "aurelia-kendoui-bridge/grid/col",
+        "aurelia-kendoui-bridge/grid/grid-toolbar",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.grid"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/grid",
      "samples": {
         "basic-use": {
@@ -677,6 +884,12 @@
   {
      "title": "Linear gauge",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/gauges/linear-gauge"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.gauge"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/lineargauge",
      "samples": {
         "basic-use": {
@@ -691,6 +904,13 @@
   {
      "title": "ListView",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/listview/listview",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.listview"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/listview",
      "samples": {
         "basic-use": {
@@ -706,6 +926,12 @@
   {
      "title": "Map",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/map/map"
+     ],
+     "kendoModules": [
+       "kendo.dataviz.map"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/map",
      "samples": {
         "basic-use": {
@@ -724,6 +950,12 @@
   {
      "title": "MaskedTextBox",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/maskedtextbox/maskedtextbox"
+     ],
+     "kendoModules": [
+       "kendo.maskedtextbox"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/maskedtextbox",
      "samples": {
         "basic-usage": {
@@ -737,6 +969,12 @@
   {
      "title": "Menu",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/menu/menu"
+     ],
+     "kendoModules": [
+       "kendo.menu"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/menu",
      "samples": {
         "basic-use": {
@@ -755,6 +993,13 @@
   {
      "title": "Multiselect",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/multiselect/multiselect",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.multiselect"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/multiselect",
      "samples": {
         "basic-use": {
@@ -773,6 +1018,13 @@
   {
      "title": "Notification",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/notification/notification",
+        "aurelia-kendoui-bridge/notification/notification-template"
+     ],
+     "kendoModules": [
+       "kendo.notification"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/notification",
      "samples": {
         "basic-use": {
@@ -787,6 +1039,12 @@
   {
      "title": "Numerictextbox",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/numerictextbox/numerictextbox"
+     ],
+     "kendoModules": [
+       "kendo.numerictextbox"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/numerictextbox",
      "samples": {
         "basic-usage": {
@@ -800,6 +1058,12 @@
   {
      "title": "Panel Bar",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/panelbar/panelbar"
+     ],
+     "kendoModules": [
+       "kendo.panelbar"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/panelbar",
      "samples": {
         "basic-use": {
@@ -821,6 +1085,15 @@
   {
      "title": "Pivot Grid",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/pivotgrid/pivotgrid",
+        "aurelia-kendoui-bridge/pivotgrid/pivotconfigurator"
+     ],
+     "kendoModules": [
+       "kendo.pivotgrid",
+       "kendo.pivot.configurator",
+       "kendo.pivot.fieldmenu"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/pivotgrid",
      "samples": {
         "basic-use": {
@@ -838,6 +1111,12 @@
   {
      "title": "Popup",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/popup/popup"
+     ],
+     "kendoModules": [
+       "kendo.popup"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/popup",
      "samples": {
         "basic-use": {
@@ -849,6 +1128,12 @@
   {
      "title": "Progress Bar",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/progressbar/progressbar"
+     ],
+     "kendoModules": [
+       "kendo.progressbar"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/progressbar",
      "samples": {
         "basic-use": {
@@ -865,6 +1150,12 @@
   {
      "title": "QR Code",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/qrcode/qrcode"
+     ],
+     "kendoModules": [
+       "kendo.qrcode"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/qrcode",
      "samples": {
         "basic-use": {
@@ -877,6 +1168,12 @@
   {
      "title": "Radial gauge",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/gauges/radial-gauge"
+     ],
+     "kendoModules": [
+       "kendo.davaviz.gauge"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/radialgauge",
      "samples": {
         "basic-use": {
@@ -891,6 +1188,12 @@
   {
      "title": "RangeSlider",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/rangeslider/rangeslider"
+     ],
+     "kendoModules": [
+       "kendo.slider"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/rangeslider",
      "samples": {
         "basic-use": {
@@ -904,6 +1207,12 @@
   {
      "title": "ResponsivePanel",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/responsivepanel/responsivepanel"
+     ],
+     "kendoModules": [
+       "kendo.responsivepanel"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/responsivepanel",
      "samples": {
         "basic-use": {
@@ -915,6 +1224,19 @@
   {
      "title": "Scheduler",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/scheduler/scheduler",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.scheduler",
+       "kendo.scheduler.agendaview",
+       "kendo.scheduler.dayview",
+       "kendo.scheduler.monthview",
+       "kendo.scheduler.recurrence",
+       "kendo.scheduler.timelineview",
+       "kendo.scheduler.view"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/scheduler",
      "samples": {
         "basic-use": {
@@ -938,6 +1260,12 @@
   {
      "title": "Scrollview",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/scrollview/scrollview"
+     ],
+     "kendoModules": [
+       "kendo.mobile.scrollview"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/scrollview",
      "samples": {
         "basic-use": {
@@ -949,6 +1277,12 @@
   {
      "title": "Slider",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/slider/slider"
+     ],
+     "kendoModules": [
+       "kendo.slider"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/slider",
      "samples": {
         "basic-use": {
@@ -962,6 +1296,12 @@
   {
      "title": "Sortable",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/sortable/sortable"
+     ],
+     "kendoModules": [
+       "kendo.sortable"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/sortable",
      "samples": {
         "basic-use": {
@@ -983,6 +1323,12 @@
   {
      "title": "Splitter",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/splitter/splitter"
+     ],
+     "kendoModules": [
+       "kendo.splitter"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/splitter",
      "samples": {
         "basic-use": {
@@ -997,6 +1343,12 @@
   {
      "title": "Spreadsheet",
      "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/spreadsheet/spreadsheet"
+     ],
+     "kendoModules": [
+       "kendo.spreadsheet"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/spreadsheet",
      "samples": {
         "basic-use": {
@@ -1018,6 +1370,12 @@
   {
      "title": "Switch",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/switch/switch"
+     ],
+     "kendoModules": [
+       "kendo.mobile.switch"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/mobile/ui/switch",
      "samples": {
         "basic-use": {
@@ -1030,6 +1388,12 @@
   {
      "title": "Tabstrip",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/tabstrip/tabstrip"
+     ],
+     "kendoModules": [
+       "kendo.tabstrip"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/tabstrip",
      "samples": {
         "basic-use": {
@@ -1048,6 +1412,12 @@
   {
      "title": "TimePicker",
      "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/timepicker/timepicker"
+     ],
+     "kendoModules": [
+       "kendo.timepicker"
+     ],
      "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/timepicker",
      "samples": {
         "basic-usage": {
@@ -1062,6 +1432,14 @@
   {
    "title": "Toolbar",
    "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/toolbar/toolbar",
+        "aurelia-kendoui-bridge/toolbar/toolbar-item",
+        "aurelia-kendoui-bridge/toolbar/toolbar-item-button"
+     ],
+     "kendoModules": [
+       "kendo.toolbar"
+     ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/tooltip",
    "samples": {
       "basic-use": {
@@ -1077,6 +1455,12 @@
   {
    "title": "Tooltip",
    "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/tooltip/tooltip"
+     ],
+     "kendoModules": [
+       "kendo.tooltip"
+     ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/tooltip",
    "samples": {
       "basic-use": {
@@ -1092,6 +1476,14 @@
   {
    "title": "Treeview",
    "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/treeview/treeview",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.treeview",
+       "kendo.treeview.draganddrop"
+     ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/treeview",
    "samples": {
       "basic-use": {
@@ -1110,6 +1502,14 @@
   {
    "title": "TreeList",
    "pro": true,
+   "requires": [
+      "aurelia-kendoui-bridge/treelist/treelist",
+      "aurelia-kendoui-bridge/treelist/tree-col",
+      "aurelia-kendoui-bridge/common/template"
+   ],
+   "kendoModules": [
+     "kendo.treelist"
+   ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/treelist",
    "samples": {
       "basic-use": {
@@ -1134,6 +1534,14 @@
   },
   {
     "title": "Upload",
+    "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/upload/upload",
+        "aurelia-kendoui-bridge/common/template"
+     ],
+     "kendoModules": [
+       "kendo.upload"
+     ],
     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/upload",
     "samples": {
       "basic-use": {
@@ -1149,6 +1557,13 @@
   },
   {
     "title": "Validator",
+     "requires": [
+        "aurelia-kendoui-bridge/validator/validator"
+     ],
+     "kendoModules": [
+       "kendo.validator"
+     ],
+    "pro": false,
     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/validator",
     "samples": {
       "basic-use": {
@@ -1169,6 +1584,13 @@
   },
   {
    "title": "Window",
+   "pro": false,
+   "requires": [
+      "aurelia-kendoui-bridge/"
+   ],
+   "kendoModules": [
+     "kendo."
+   ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/window",
    "samples": {
       "basic-use": {
