@@ -107,6 +107,12 @@
   "categories": [{
    "title": "Autocomplete",
    "pro": false,
+   "requires": [
+      "aurelia-kendoui-bridge/autocomplete/autocomplete"
+   ],
+   "kendoModules": [
+     "kendo.autocomplete"
+   ],
    "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/autocomplete",
    "samples": {
       "basic-use": {
