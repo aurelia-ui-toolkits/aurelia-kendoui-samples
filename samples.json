@@ -1056,7 +1056,7 @@
      }
   },
   {
-     "title": "Panel Bar",
+     "title": "PanelBar",
      "pro": false,
      "requires": [
         "aurelia-kendoui-bridge/panelbar/panelbar"
