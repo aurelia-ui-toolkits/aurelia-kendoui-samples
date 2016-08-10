@@ -972,7 +972,8 @@
      "title": "Menu",
      "pro": false,
      "requires": [
-        "aurelia-kendoui-bridge/menu/menu"
+        "aurelia-kendoui-bridge/menu/menu",
+        "aurelia-kendoui-bridge/contextmenu/contextmenu"
      ],
      "kendoModules": [
        "kendo.menu"
