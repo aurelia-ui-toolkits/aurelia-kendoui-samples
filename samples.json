@@ -881,7 +881,8 @@
         "without-auto-initialization": "025ec1b83149711ddfbcdcc13232c016",
         "conditional-button": "f320b6c28ca572527b95a332889ad3bc",
         "row-template": "8875df839946569be00c7b99d36533ff",
-        "format-date": "fb98400004a2af1a94d645e634ed232a"
+        "format-date": "fb98400004a2af1a94d645e634ed232a",
+        "virtualization": "8dc9218a2a5a8e9cdbae501b5833f9d5"
      }
   },
   {
