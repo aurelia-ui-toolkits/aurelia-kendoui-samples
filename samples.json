@@ -876,6 +876,7 @@
         "multi-column-headers": "3e056bf0bb5372cbf02ccb6a7d99a4f8",
         "colours": "c5a1a96826d79e752696b82465f89c83",
         "row-select": "ea47f99e2a278259f2409ba3a2bca189",
+        "row-select-programatically": "00a7c83b7d9560349c64b723e5e5fb27",
         "row-click": "9dab0510645805aa3d8963b9f2803bc6",
         "two-way-binding": "43c4485cd73fd35f17052b334ffe671e",
         "without-auto-initialization": "025ec1b83149711ddfbcdcc13232c016",
