@@ -839,7 +839,8 @@
       },
       "on-ready-event": "c2ffde936c8caee5c35b3c08a596b410",
       "without-auto-initialization": "8dcdecc6005a02a4c0d5770ea0aa954c",
-      "two-way-binding-support": "0cbaf26be35fedc38c917961f4f78b84"
+      "two-way-binding-support": "0cbaf26be35fedc38c917961f4f78b84",
+      "recreate": "38ead64ee92d684da566078b1a0f65c2"
     }
   },
   {
