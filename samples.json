@@ -837,6 +837,7 @@
         "default": true,
         "gist": "7629847ee2d5b90d7f84925121f90345"
       },
+      "on-ready-event": "c2ffde936c8caee5c35b3c08a596b410",
       "without-auto-initialization": "8dcdecc6005a02a4c0d5770ea0aa954c",
       "two-way-binding-support": "0cbaf26be35fedc38c917961f4f78b84"
     }
