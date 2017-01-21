@@ -87,6 +87,7 @@
       "Radial Gauge": "radial-gauge"
     },
     "Layout": {
+      "Dialog": "dialog",
       "Splitter": "splitter",
       "Notification": "notification",
       "Tooltip": "tooltip",
