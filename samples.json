@@ -87,6 +87,7 @@
       "Radial Gauge": "radial-gauge"
     },
     "Layout": {
+      "Dialog": "dialog",
       "Splitter": "splitter",
       "Notification": "notification",
       "Tooltip": "tooltip",
@@ -359,6 +360,27 @@
         },
         "binding-to-local-data": "51083c854c97e4186698e360bbd365ea",
         "binding-to-remote-data": "9186bff1dd24ca2ea193a809f02e96a1"
+     }
+  },
+  
+  {
+     "title": "Dialog",
+     "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/dialog/dialog"
+     ],
+     "kendoModules": [
+       "kendo.dialog"
+     ],
+     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/dialog",
+     "samples": {
+        "basic-use": {
+           "default": true,
+           "gist": "58d4f7efe5f553d9ce210c8c11ad5c86"
+        },
+        "predefined-dialogs": "7534f1dcdec23821743a2dd0eb989b07",
+        "events": "47436dd6824400cfb988d8700df4eb1b",
+        "API": "52739173aaafd197546b479816decf4e"
      }
   },
   {
