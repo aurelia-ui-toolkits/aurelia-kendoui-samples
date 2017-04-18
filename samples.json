@@ -883,6 +883,7 @@
            "gist": "b6a4f607d9f42a0e792e20779fe34213"
         },
         "datasource-read": "5e95513ef8cef2d07b2fc4c2cd422137",
+        "multi-select": "ed823eda17ef1ac43cc80832132c872c",
         "batch-editing": "985fcf8ccc29cb20a77d24eadd97af66",
         "binding-to-local-data": "e30182438a95ab16af7ac82a9f073e10",
         "binding-to-remote-data": "f4f79fa5e2a21d0846f81326a7a86329",
