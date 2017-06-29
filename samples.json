@@ -100,6 +100,9 @@
       "Sortable": "sortable",
       "Popup": "popup"
     },
+    "Media": {
+     "Mediaplayer": "mediaplayer" 
+    },
     "Tools": {
       "ValueConverters": "valueconverters"
     }
@@ -1619,6 +1622,27 @@
          "default": true,
          "gist": "857165411925e01e9b407ab097d7e958"
       }
+   }
+  },
+  {
+   "title": "Mediaplayer",
+   "pro": false,
+   "requires": [
+      "aurelia-kendoui-bridge/mediaplayer/mediaplayer"
+   ],
+   "kendoModules": [
+     "kendo.mediaplayer"
+   ],
+   "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/mediaplayer",
+   "samples": {
+      "basic-use": {
+         "default": true,
+         "gist": "61b50f4dcb59b6cd856d8713034e3979"
+      },
+      "playlist": "985d782b30810a82de42e5e651f81b18",
+      "keyboard-navigation": "11041dfd04a59f878cf8b1443877545c",
+      "events": "9047bd915a523866e821187fbf7a77b1",
+      "api": "517384927ce0cc81b0c5222ad1406c2c"
    }
   },
   {
