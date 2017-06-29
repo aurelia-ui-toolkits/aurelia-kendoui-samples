@@ -13,6 +13,7 @@
     "Data management": {
       "Grid": "grid",
       "ListView": "listview",
+      "ListBox": "listbox",
       "TreeList": "treelist",
       "PivotGrid": "pivot-grid",
       "Scrollview": "scrollview",
@@ -432,6 +433,24 @@
         "smooth-line": "e83fd544f952696229529d7abed733a0",
         "stacked-line": "3b57e59006cd2897b1aa4e362267c78c",
         "stepped-line": "6ac5f6081df954460b1417df8059090c"
+     }
+  },
+  {
+     "title": "ListBox",
+     "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/listbox/listbox"
+     ],
+     "kendoModules": [
+       "kendo.ui.listbox"
+     ],
+     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/listbox",
+     "samples": {
+        "basic-use": {
+           "default": true,
+           "gist": "a8ed34c9d8e003a7ade4dafe8890fea4"
+        },
+       "templates": "b826cc690bb0dd65a6ba9044aa0b2658"
      }
   },
   {
