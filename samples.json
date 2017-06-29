@@ -25,6 +25,7 @@
       "ColorPicker": "color-picker",
       "ComboBox": "combobox",
       "DatePicker": "datepicker",
+      "DateInput": "dateinput",
       "DateTimePicker": "datetimepicker",
       "DropDownList": "dropdownlist",
       "Editor": "editor",
