@@ -366,6 +366,23 @@
         "binding-to-remote-data": "9186bff1dd24ca2ea193a809f02e96a1"
      }
   },
+  {
+     "title": "DateInput",
+     "pro": false,
+     "requires": [
+        "aurelia-kendoui-bridge/dateinput/dateinput"
+     ],
+     "kendoModules": [
+       "kendo.ui.dateinput"
+     ],
+     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/ui/dateinput",
+     "samples": {
+        "basic-use": {
+           "default": true,
+           "gist": "21794d066a0d3708c6e18a0d9ce4e4cb"
+        }
+     }
+  },
   
   {
      "title": "Dialog",
