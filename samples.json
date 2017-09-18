@@ -225,7 +225,7 @@
   },
   {
      "title": "Area charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -252,7 +252,7 @@
   },
   {
      "title": "Bar charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -292,7 +292,7 @@
   },
   {
      "title": "Boxplot charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -311,7 +311,7 @@
   },
   {
      "title": "Bubble charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -331,7 +331,7 @@
   },
   {
      "title": "Bullet charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -350,7 +350,7 @@
   },
   {
      "title": "Donut charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -407,7 +407,7 @@
   },
   {
      "title": "Funnel charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -428,7 +428,7 @@
   },
   {
      "title": "Line charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -473,7 +473,7 @@
   },
   {
      "title": "Pie charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -493,7 +493,7 @@
   },
   {
      "title": "Polar charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -516,7 +516,7 @@
   },
   {
      "title": "Radar charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -538,7 +538,7 @@
   },
   {
      "title": "Range charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
@@ -557,7 +557,7 @@
   },
   {
      "title": "Scatter charts",
-     "pro": false,
+     "pro": true,
      "requires": [
         "aurelia-kendoui-bridge/chart/chart"
      ],
