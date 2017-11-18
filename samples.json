@@ -15,7 +15,7 @@
       "ListView": "listview",
       "ListBox": "listbox",
       "TreeList": "treelist",
-      "PivotGrid": "pivotgrid",
+      "PivotGrid": "pivot-grid",
       "Scrollview": "scrollview",
       "Spreadsheet": "spreadsheet",
       "FilterMenu": "filter-menu"
