@@ -87,7 +87,8 @@
     },
     "Gauges": {
       "Linear Gauge": "linear-gauge",
-      "Radial Gauge": "radial-gauge"
+      "Radial Gauge": "radial-gauge",
+      "Arc Gauge": "arc-gauge"
     },
     "Layout": {
       "Dialog": "dialog",
@@ -1280,6 +1281,23 @@
         "scale-options": "8d9a7265df061953b5d6620e88e6a62e",
         "multiple-pointers": "7cdfe42456afcae7c8029797bc6a0893",
         "export": "faef9f45e80122ca586b5224e25344cb"
+     }
+  },
+  {
+     "title": "Arc gauge",
+     "pro": true,
+     "requires": [
+        "aurelia-kendoui-bridge/gauges/arc-gauge"
+     ],
+     "kendoModules": [
+       "kendo.davaviz.gauge"
+     ],
+     "documentation": "http://docs.telerik.com/kendo-ui/api/javascript/dataviz/ui/arcgauge",
+     "samples": {
+        "basic-use": {
+           "default": true,
+           "gist": "cb74413f998e8bb87efd308546dcaba2"
+        }
      }
   },
   {
